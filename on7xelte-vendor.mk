@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_4h5yc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4h5yc.bin \
     vendor/samsung/on7xelte/proprietary/vendor/firmware/setfile_imx258.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx258.bin \
     vendor/samsung/on7xelte/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/on7xelte/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
+    vendor/samsung/on7xelte/proprietary/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/flp.default.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocFace_mvfd_v1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHpr_LocFace_mvfd_v1.0.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/libHpr_LocLandmark_sdm_v1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHpr_LocLandmark_sdm_v1.0.so \
