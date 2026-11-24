@@ -140,5 +140,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/on7xelte/proprietary/vendor/lib/soundfx/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvverx.so \
     vendor/samsung/on7xelte/proprietary/vendor/lib/soundfx/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libLifevibes_lvvetx.so
 
+# Matching stock LVVE configuration and its referenced control tables.
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*.txt,vendor/samsung/on7xelte/proprietary/vendor/etc/nxp,$(TARGET_COPY_OUT_VENDOR)/etc/nxp)
+
 PRODUCT_PACKAGES += \
     libGLES_mali
